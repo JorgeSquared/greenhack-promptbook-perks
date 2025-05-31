@@ -1,4 +1,3 @@
-
 import { Mail, Github, Trophy, Zap, Users, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -209,7 +208,7 @@ const Index = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6">Explore Our Platform</h2>
           <p className="text-xl text-gray-300 mb-8">
-            Dive into our code and documentation to supercharge your project
+            Dive into our code and documentation to supercharge your project and give us a star
           </p>
           
           <div className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full mb-8">
