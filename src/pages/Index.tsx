@@ -1,3 +1,4 @@
+
 import { Mail, Github, Trophy, Zap, Users, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -55,7 +56,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Infinity Many ways to Build with PromptBook
+              Unlimited Ways to Build with PromptBook
             </h2>
             <p className="text-xl text-gray-600">
               Every participant has an opportunity to claim PromptBook tokens
