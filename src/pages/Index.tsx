@@ -1,4 +1,3 @@
-
 import { Mail, Github, Trophy, Zap, Users, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -17,7 +16,23 @@ const Index = () => {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-emerald-600 to-green-700 bg-clip-text text-transparent mb-6 animate-fade-in">
-              PromptBook × Hackathon
+              <a 
+                href="https://ptbk.io" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                PromptBook
+              </a>
+              {" × "}
+              <a 
+                href="https://greenhack.eu" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
+              >
+                GreenHack
+              </a>
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 mb-4 animate-fade-in">
