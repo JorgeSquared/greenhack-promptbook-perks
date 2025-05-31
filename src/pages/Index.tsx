@@ -20,7 +20,7 @@ const Index = () => {
                 href="https://ptbk.io" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+                className="hover:bg-gradient-to-r hover:from-emerald-800 hover:to-green-800 hover:bg-clip-text hover:text-transparent transition-all duration-300"
               >
                 PromptBook
               </a>
@@ -29,7 +29,7 @@ const Index = () => {
                 href="https://greenhack.eu" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+                className="hover:bg-gradient-to-r hover:from-emerald-800 hover:to-green-800 hover:bg-clip-text hover:text-transparent transition-all duration-300"
               >
                 GreenHack
               </a>
