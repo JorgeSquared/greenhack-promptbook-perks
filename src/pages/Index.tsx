@@ -1,3 +1,4 @@
+
 import { Mail, Github, Trophy, Zap, Users, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -60,6 +61,14 @@ const Index = () => {
               >
                 <Github className="mr-2 w-5 h-5" />
                 Explore Code
+              </Button>
+              <Button 
+                size="lg" 
+                className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                onClick={() => window.open('https://discord.gg/bVfb7Kn2', '_blank')}
+              >
+                <Users className="mr-2 w-5 h-5" />
+                Join us
               </Button>
             </div>
           </div>
