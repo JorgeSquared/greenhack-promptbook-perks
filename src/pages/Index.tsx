@@ -22,7 +22,7 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="hover:bg-gradient-to-r hover:from-emerald-800 hover:to-green-800 hover:bg-clip-text hover:text-transparent transition-all duration-300"
               >
-                PromptBookkk
+                PromptBook
               </a>
               {" × "}
               <a 
