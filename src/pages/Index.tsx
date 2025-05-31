@@ -1,4 +1,3 @@
-
 import { Mail, Github, Trophy, Zap, Users, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -13,7 +12,7 @@ const Index = () => {
           <div className="text-center">
             <div className="inline-flex items-center px-4 py-2 bg-emerald-100 text-emerald-700 rounded-full text-sm font-medium mb-8 animate-fade-in">
               <Zap className="w-4 h-4 mr-2" />
-              GreenHack 2024 Sponsor
+              GreenHack 2025 Sponsor
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-emerald-600 to-green-700 bg-clip-text text-transparent mb-6 animate-fade-in">
@@ -195,11 +194,11 @@ const Index = () => {
               rel="noopener noreferrer"
               className="text-emerald-400 hover:text-emerald-300 underline transition-colors"
             >
-              GreenHack 2024
+              GreenHack 2025
             </a>
           </p>
           <div className="text-sm text-gray-500">
-            <p>© 2024 PromptBook. All rights reserved.</p>
+            <p>© 2025 PromptBook. All rights reserved.</p>
           </div>
         </div>
       </div>
