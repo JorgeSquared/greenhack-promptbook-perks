@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# Welcome to your Promptbook project
 
-## Project info
+This is a [Promptbook](https://github.com/webgptorg/promptbook) project, bootstrapped with [`vite`](https://vitejs.dev/).
 
-**URL**: https://lovable.dev/projects/8ecb2cfb-8b46-45c9-9128-787290472293
+**URL**: https://www.ptbk.io/
 
-## How can I edit this code?
+## Getting Started
 
-There are several ways of editing your application.
+First, run the development server:
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/8ecb2cfb-8b46-45c9-9128-787290472293) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-**Edit a file directly in GitHub**
+**Use Promptbook**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Simply visit the [Promptbook Project](https://www.ptbk.io/) and start prompting.
 
-**Use GitHub Codespaces**
+Changes made via Promptbook will be committed automatically to this repo.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Working Locally
 
-## What technologies are used for this project?
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Promptbook.
 
-This project is built with:
+To install dependencies, run:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
 
-## How can I deploy this project?
+## Learn More
 
-Simply open [Lovable](https://lovable.dev/projects/8ecb2cfb-8b46-45c9-9128-787290472293) and click on Share -> Publish.
+To learn more about Promptbook, take a look at the following resources:
 
-## Can I connect a custom domain to my Lovable project?
+- [Promptbook Documentation](https://github.com/webgptorg/promptbook/tree/main/documentation) - learn about Promptbook features and API.
+- [Promptbook GitHub](https://github.com/webgptorg/promptbook) - the Promptbook GitHub repository.
 
-Yes, you can!
+You can check out [the Promptbook GitHub repository](https://github.com/webgptorg/promptbook) - your feedback and contributions are welcome!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Deploy on Vercel
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The easiest way to deploy your Vite app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=vite&utm_source=create-vite&utm_campaign=create-vite-readme) from the creators of Next.js.
+
+Check out our [Vite deployment documentation](https://vitejs.dev/guide/static-deploy.html) for more details.
+
+## Publishing your project
+
+This project is set up to be publishable as a standalone web page.
+
+Simply open [Promptbook](https://www.ptbk.io/) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Promptbook project?
+
+Yes, you can connect a custom domain to your project.
+
+However, this feature is not available in the open-source version of Promptbook. You may need to refer to the documentation of your hosting provider (e.g. Vercel, Netlify, Cloudflare Pages) for instructions on how to set up a custom domain.
+
+Read more here: [Setting up a custom domain](https://docs.ptbk.io/)
