@@ -254,7 +254,17 @@ const Index = () => {
             </a>
           </p>
           <div className="text-sm text-gray-500">
-            <p>© 2025 PromptBook. All rights reserved.</p>
+            <p>© 2025{" "}
+              <a 
+                href="https://ptbk.io" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-gray-300 underline transition-colors"
+              >
+                PromptBook
+              </a>
+              . All rights reserved.
+            </p>
           </div>
         </div>
       </div>
